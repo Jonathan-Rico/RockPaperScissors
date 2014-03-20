@@ -1,10 +1,9 @@
-
 import java.util.Scanner;
 public class Rockpaperscissors {
 	public static void main(String [] args){
 		
 		String comp = "";
-		int game = 0 + (int) (Math.random() * 2);
+		int game = 0 + (int) (Math.random() * 3);
 		if (game == 0){
 			comp = "Rock";
 		}
