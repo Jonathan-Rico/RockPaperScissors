@@ -58,5 +58,9 @@ public class Rockpaperscissors {
 			System.out.printf("The computer has chosen %s\n", comp);
 			System.out.printf("Sorry, but %s does not beat %s. Please try again by restarting program", player , comp);
 		}
+		else if (player.equals("Rock") && comp.equals("Scissors")){
+			System.out.printf("The computer has chosen %s\n", comp);
+			System.out.printf("Congratulations, you picked %s which beats %s. You have won the game.\n", player, comp);
+		}
 	}
 }
